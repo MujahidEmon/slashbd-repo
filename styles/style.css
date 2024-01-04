@@ -41,7 +41,7 @@ nav ul{
     padding: 40px;
     clip-path: polygon(0 0, 100% 0, 97% 100%, 3% 100%);
 }
-h1 span{
+h1 span,./{
     color: red;
 }
 .upper h1{
@@ -131,10 +131,6 @@ a{
 img:hover{
     transform: scale(1.2);
 }
-/* figcaption{
-    margin: none auto;
-    padding: auto;
-} */
 figcaption:hover{
     transform: scale(1.2);
     background-color: beige;
@@ -157,5 +153,10 @@ figcaption:hover{
     border-radius: 2rem;
     width: 10vw;
     font-family:'Fira Sans', sans-serif;
+}
+footer{
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    font-size: large ;
 }
     
