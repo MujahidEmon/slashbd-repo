@@ -41,7 +41,7 @@ nav ul{
     padding: 40px;
     clip-path: polygon(0 0, 100% 0, 97% 100%, 3% 100%);
 }
-h1 span,./{
+h1 span{
     color: red;
 }
 .upper h1{
@@ -66,9 +66,9 @@ h1 span,./{
 }
 .ouram{
     color: rgb(4, 69, 92);
-    text-align: center;
-    font-size: 40px;
-    border-bottom: 5px solid rgb(255, 0, 0);
+    text-align: left;
+    font-size: 25px;
+    border-bottom: 2px solid rgb(40, 35, 83);
     margin-bottom: 0px;
     font-weight: bolder;
     font-family:'Fira Sans', sans-serif;
