@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Karla&family=Titillium+Web&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10px;
+    padding-left: 10px;
+    margin-right: 10px;
+    padding-right: 10px;
+    margin-top: ;
+}
+nav h2{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: x-large;
+    font-weight: 1000;
+}
+h2 .slash{
+    color: red;
+}
+nav>ul>li{
+    list-style: none;
+    display: inline;
+    
+}
+nav ul{
+    margin-top: 12px;
+    word-spacing: 20px;
+    font-family: 'Fira Sans', sans-serif;
+}
+nav ul #menu{
+    text-decoration: none;
+    color: black;
+}
+#menu:hover{
+    background-color: lightpink;
+    border-radius: 4px;
+    margin: auto;
+    padding: 2px 4px;
+    color: rgb(43, 5, 5);
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: aquamarine;
+}
+.Form-Content{
+    width: 60%;
+    background-color: bisque;
+    font-family: 'Fira Sans', sans-serif;
+    padding: 30px;
+}
+.Form-Content h2{
+    text-align: center;
+    color: brown;
+}
