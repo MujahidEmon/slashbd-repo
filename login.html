@@ -7,6 +7,8 @@
     <title>Login S/ASH bd</title>
     <link rel="shortcut icon" href="images/icon.jpg" type="image/x-icon">
     <link rel="stylesheet" href="styles/login.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
 </head>
 
 <body>
@@ -23,34 +25,33 @@
     </header>
     <div class="form">
         <div class="Form-Content">
-            <form action="">
+            <form>
                 <h2 class="login">Login</h2>
-                <div class="mail">
-                    <label for="">Email:</label>
-                    <br>
-                    <input type="email" name="" id="" placeholder="Enter yout Email">
+                <div class="form-box">
+                    <div class="mail" id="element">
+                        <input type="email" name="" id="" placeholder="Enter yout Email">
+                        <box-icon name='mail-send'></box-icon>
+                    </div>
+                    <div class="pass">                        <input type="password" name="" id="" placeholder="Enter your Password">
+                    <box-icon name='lock-alt' ></box-icon>
+                    </div>
+                    <div class="button">
+                        <input type="button" value="Login">
+                    </div>
+                    <div class="remember-forget">
+                        <label for="">
+                            <input type="checkbox" name="" id="">Remember me 
+                            <a href="#" class="forget">Forget Password</a>
+                        </label>
+                    </div>
+                    <div class="Social-Links">
+                        <label for="">
+                            Login With
+                            <img src="/images/google.png" alt="Google" class="social">
+                            <img src="/images/facebookpng.png" alt="Facebook" class="social">
+                            <img src="/images/linkedin-square-logo-24.png" alt="Linkedin" class="social">
+                        </label>
                 </div>
-                <div class="pass">
-                    <label for="">Password:</label>
-                    <br>
-                    <input type="password" name="" id="" placeholder="Enter your Password">
-                </div>
-                <div class="button">
-                    <input type="button" value="Login">
-                </div>
-                <div class="remember-forget">
-                    <label for="">
-                        <input type="checkbox" name="" id="">Remember me 
-                        <a href="#" class="forget">Forget Password</a>
-                    </label>
-                </div>
-                <div class="Social-Links">
-                    <label for="">
-                        Login With
-                        <img src="/images/google.png" alt="Google" class="social">
-                        <img src="/images/facebookpng.png" alt="Facebook" class="social">
-                        <img src="/images/linkedin-square-logo-24.png" alt="Linkedin" class="social">
-                    </label>
                 </div>
             </form>
         </div>
